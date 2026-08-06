@@ -13,23 +13,24 @@ Acest proiect personal a fost creat pentru fixarea noțiunilor de OOP și învă
 
 ## Structura proiectului 
 aplicatie_biblioteca/
-├── include/       # Fișiere de antet (.h)
-├── src/           # Fișiere de implementare (.cpp)
-├── build/         # Fișiere de compilare și executabil (generat)
-└── CMakeLists.txt # Script de configurare CMake 
+── include/       # Fișiere de antet (.h)
+── src/           # Fișiere de implementare (.cpp)
+── build/         # Fișiere de compilare și executabil (generat)
+── CMakeLists.txt # Script de configurare CMake 
 
 ## Cerințe anterioare
 Compilator C++17 (g++, clang sau MSVC)
 CMake 3.12+
 
 ## Comenzi de build
-1. Generarea fișierelor de configurare
+1. Generarea fișierelor de configurare:
 cmake -B build
 
-2. Compilarea proiectului
+2. Compilarea proiectului:
 cmake --build build
 
-3. Rularea executabilului
+3. Rularea executabilului:
+
 Pe Windows:
 .\build\Debug\biblioteca.exe
 
