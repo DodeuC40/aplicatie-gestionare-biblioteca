@@ -1,8 +1,12 @@
 build/
+cmake-build-*/
 bin/
 obj/
 *.exe
 
+.idea/
+
 .vscode/
 
 *.txt
+!CMakeLists.txt

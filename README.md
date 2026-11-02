@@ -22,17 +22,3 @@ aplicatie_biblioteca/
 Compilator C++17 (g++, clang sau MSVC)
 CMake 3.12+
 
-## Comenzi de build
-1. Generarea fișierelor de configurare:
-cmake -B build
-
-2. Compilarea proiectului:
-cmake --build build
-
-3. Rularea executabilului:
-
-Pe Windows:
-.\build\Debug\biblioteca.exe
-
-Pe Linux / macOS:
-./build/biblioteca
